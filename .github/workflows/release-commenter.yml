@@ -18,4 +18,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           comment-template: |
-            This is included in [{release_name}]({release_link}).
+            This is included in {release_link}.
